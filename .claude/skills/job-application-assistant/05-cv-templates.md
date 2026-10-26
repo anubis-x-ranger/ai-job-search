@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Satyajit Sahu - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Satyajit}{Sahu}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{New Delhi, India}{}{}
+\phone[mobile]{+91 7208466592}
+\email{satyajitsahu444@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/satyajit-sahu-34396318b}{LinkedIn}, \href{https://github.com/anubis-x-ranger}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Front-end / Full-stack Engineer roles (fintech, finance, product):**
+> Software Engineer with 3+ years of experience building enterprise React 18 and TypeScript applications for global private equity clients. Experienced with Redux, AG Grid, Excel Add-ins, UI performance optimization and React Testing Library. Also builds AI-assisted developer tooling, including an Azure DevOps bug-fixing agent and a Playwright performance-benchmarking tool.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For AI / Agent Engineering roles:**
+> Software Engineer with 3+ years of experience in React 18 and TypeScript for financial platforms, now building LLM-based automation: a React conversational UI over backend LLM APIs and an agent that reads Azure DevOps tickets, branches from dev, raises plan and fix PRs and merges to dev. Uses Cline agents with AWS Bedrock and Copilot in development.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

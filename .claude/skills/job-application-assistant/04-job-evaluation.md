@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React 18, TypeScript, Redux, AG Grid, front-end performance tuning, React Testing Library/Jest, Playwright/Lighthouse benchmarking
+**Moderate match areas:** Node.js/Express, .NET Core, SQL, Docker/Rancher, Azure DevOps, LLM API integration, AI agent automation (Cline, MCP)
+**Weak match areas:** Not recorded - none of Angular/Vue, Python/ML, or cloud architecture appear in the CV; ask before assuming
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Front-end/full-stack engineering for finance and private equity platforms (3+ years)
+**Moderate:** AI agent and LLM-integration work, developer tooling and test automation
+**Entry-level:** Staff/lead roles, backend-only or data/ML engineering roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -93,7 +93,7 @@ Does the role and company culture match the behavioral profile?
 ### 4. Location & Logistics (Pass/Fail + Notes)
 - Within commute range: PASS
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Requires relocation: PASS (candidate is open to relocation)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +107,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Continue as a front-end/full-stack engineer at tech, fintech, finance, product or digital-media companies
+- Grow into AI agent and developer-automation work (builds on the Azure DevOps agent)
+- Reach a baseline of 16 LPA (currently 12 LPA)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: not provided; automation and tooling work appears in the CV but has not been confirmed
+- Tasks that drain: not provided
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: employed, current 12 LPA, baseline 16 LPA
+- **Flexibility**: 60-day notice period; open to relocation and remote
+- **Professional development**: AI agents/LLM tooling, performance engineering
 
 ### 6. Salary Benchmark (Optional)
 

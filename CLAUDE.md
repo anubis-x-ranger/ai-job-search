@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Satyajit Sahu
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Satyajit Sahu, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,60 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Satyajit Sahu
+- **Location:** New Delhi, India (open to relocation and remote)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Fluent / professional working proficiency |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed as Software Engineer at Indus Valley Partners; actively searching. Not on notice; assume a 60-day notice period.
+- **Compensation:** Current 12 LPA; baseline expectation 16 LPA
+- **LinkedIn:** https://www.linkedin.com/in/satyajit-sahu-34396318b
+- **GitHub:** https://github.com/anubis-x-ranger
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Master of Computer Applications (M.C.A.)** (2018-2021) - V.E.S. Institute of Technology, Mumbai
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Engineer** (Dec 2022 - Present) - **Indus Valley Partners**
+  - Engineered 4+ enterprise React 18 modules (TypeScript, Redux) for global private equity clients; Excel Add-ins integrated with React cut manual investor-reporting effort by 40%
+  - Improved UI performance by 20% (CSS optimization, AG Grid tuning); reduced regression defects by 40% with React Testing Library; eliminated 33% duplicate code via shared components
+  - Built a React conversational UI over backend LLM APIs for an AI financial assistant
+  - Built an agent for the current project that fixes bugs in Azure DevOps end to end: reads the ticket, branches from dev, raises plan and fix PRs, merges to dev
+- **Practical Training, Full-Stack Development** (Oct 2021 - Dec 2022) - **Masai School**
+  - 8+ collaborative projects with React.js, Redux, Node.js, MongoDB; worked with 6-7 teams in cross-functional groups of 4-6 engineers
+
+### Independent Projects
+- **UI performance benchmarking tool (Playwright)**: 30 iterations per scenario, p90/p95 statistics, sequential and parallel modes, Lighthouse logs recorded via a Lighthouse logger
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** React 18, TypeScript, JavaScript (ES6+), Redux, AG Grid, Material UI, React Testing Library, Jest
+- **Secondary:** Node.js, Express.js, .NET Core, SQL, Playwright, Lighthouse, LLM API integration, AI agent automation
+- **Domain:** Private equity / financial reporting software, UI performance engineering
+- **Software:** Git, Azure DevOps, Docker, Podman, Rancher, WSL, SonarQube, Excel Add-ins, Cline with AWS Bedrock, Copilot, MCP servers
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+None listed.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+Not provided (skipped during setup). See `02-behavioral-profile.md`.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+Not provided (skipped during setup).
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Tech companies, finance, fintech, service and product companies, digital media (no specific companies named)
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None stated
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

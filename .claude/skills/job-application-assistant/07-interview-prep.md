@@ -16,26 +16,35 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+<!-- Drafted from CV facts only. Items marked (confirm) need the candidate's own detail before use in an interview; no metrics were invented. -->
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Azure DevOps bug-fixing agent (Automation / AI agents)
+**S:** Current project at Indus Valley Partners; bug tickets in Azure DevOps required repetitive manual branch, plan and fix work. (confirm motivation)
+**T:** Build an agent that handles a bug end to end.
+**A:** Built an agent that reads the ticket, creates branches from the dev branch, raises a plan PR and a fix PR, and merges to dev. (confirm models, guardrails, review steps)
+**R:** (confirm - no quantified outcome recorded yet; add tickets handled, time saved or adoption)
+**Use for:** "Tell me about a project you're proud of", "How have you used AI in your work?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Excel Add-ins with React (Impact on reporting workflows)
+**S:** Investor reporting workflows for private equity clients involved heavy manual effort.
+**T:** Deliver Excel Add-ins integrated with React.
+**A:** Developed Excel Add-ins integrated with React, alongside reporting features such as dependent filters, XIRR configuration and distribution workflows.
+**R:** Reduced manual effort in investor reporting workflows by 40%.
+**Use for:** "Biggest impact", "Working with business users"
+
+### 3. UI performance and quality (Performance and testing)
+**S:** Enterprise React 18 modules with AG Grid across macOS and Windows environments.
+**T:** Improve UI performance and reduce regressions.
+**A:** Optimized CSS and tuned AG Grid; implemented unit tests with React Testing Library; standardized reusable UI components.
+**R:** UI performance up 20%, regression defects down 40%, duplicate code down 33%.
+**Use for:** "Improving quality", "Technical decision you made"
+
+### 4. Playwright performance benchmarking tool (Tooling)
+**S:** (confirm context - why performance benchmarking was needed)
+**T:** Build an automated, statistically meaningful UI performance benchmark.
+**A:** Built a Playwright tool that runs 30 iterations, computes p90 and p95, supports sequential and parallel modes, and records Lighthouse logs via a Lighthouse logger.
+**R:** (confirm - no quantified outcome recorded)
+**Use for:** "Initiative beyond your role", "Data-driven decision making"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

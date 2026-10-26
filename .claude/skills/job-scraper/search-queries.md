@@ -12,69 +12,60 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary:
+- **linkedin.com/jobs** - LinkedIn job listings (India and remote); also covered by the `linkedin-search` CLI
+- **freehire-search** CLI - country-agnostic aggregator
+- India-specific boards (e.g. Naukri, Instahyre, Wellfound): add with `/add-portal`
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for target companies
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Write queries in English (the only declared language). Name categories by function; list several title variants.
 
-**Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
-
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+### Priority 1: Frontend / Full-stack engineering (React, TypeScript)
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+site:linkedin.com/jobs "Frontend Engineer" React TypeScript India
+site:linkedin.com/jobs "Software Engineer" React TypeScript fintech
+site:linkedin.com/jobs "Full Stack Developer" React Node.js remote India
+site:linkedin.com/jobs "SDE 2" React TypeScript
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+### Priority 2: Finance / fintech / private equity technology
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs React TypeScript fintech India
+site:linkedin.com/jobs "private equity" software engineer React
+site:linkedin.com/jobs "investment platform" frontend engineer
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+### Priority 3: AI agent and developer-automation engineering
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:linkedin.com/jobs "AI engineer" agents LLM TypeScript India
+site:linkedin.com/jobs "developer productivity" engineer automation
+site:linkedin.com/jobs "LLM" application engineer React
 ```
 
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+### Priority 4: Performance and test-automation engineering
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "frontend performance" engineer Lighthouse
+site:linkedin.com/jobs "SDET" Playwright TypeScript
+site:linkedin.com/jobs "Software Engineer" Playwright React
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Open to relocation and remote. Tiers:
+- Ideal: Remote (India-based or global), New Delhi / NCR (Gurugram, Noida)
+- Acceptable: Bengaluru, Mumbai, Pune, Hyderabad (relocation open)
+- Borderline: Roles abroad - check visa/sponsorship (Eligibility Gate) before scoring
+- Too far: None defined
+
+Target sectors: tech, finance, fintech, service and product companies, digital media. Salary baseline 16 LPA (current 12 LPA); notice period 60 days.
 
 ## Language Filter
 
